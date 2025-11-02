@@ -13,7 +13,7 @@ app.use(express.json());
 // ✅ Enable CORS so React can call it
 app.use(
   cors({
-    origin: "https://demand-flux-ai-by-mactans.vercel.app/",
+    origin: "*",
     methods: ["GET", "POST"],
     credentials: true,
   })
